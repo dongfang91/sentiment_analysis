@@ -79,7 +79,7 @@ x_train, y_train= load_input(path + "train_" +features)
 
 exp = "exp_"+features
 storage = path +features
-epoch_size = 400
+epoch_size = 800
 gru_size1 = 128
 gru_size2 = 128
 dropout = 0.25
